@@ -13,6 +13,7 @@ services:
       resources:
         limits:
           memory: 1g
+          cpus: '0.2'
     volumes:
       - sqlserver_data:/var/opt/mssql
     networks:
